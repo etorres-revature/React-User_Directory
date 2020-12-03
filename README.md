@@ -22,7 +22,7 @@ This project uses the React.js library to create an app that makes an API call a
 
 ## Installation Instructions
 
-This project can be cloned or forked for personal use. The [User Directory](https://etorres-revature.github.io/React-User_Directory/) is deployed to GitHub Pages.
+This project can be cloned or forked for personal use from the following [GitHub Repository](https://github.com/etorres-revature/React-User_Directory). Users can also explore the functionality of the [User Directory](https://etorres-revature.github.io/React-User_Directory/) as deployed to GitHub Pages.
 
 ## Usage
 
