@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Spinner from "./components/Spinner/Spinner";
 import Navbar from "./components/layout/Navbar";
 import CardList from "./components/card/CardList";
 import Searchbox from "./components/Searchbox/Searchbox";
@@ -11,6 +12,7 @@ class App extends Component {
     this.state = {
       users: [],
       searchField: "",
+      loading: true,
     };
   }
 
@@ -18,7 +20,7 @@ class App extends Component {
     fetch("https://randomuser.me/api/?results=120&nat=us")
       .then((res) => res.json())
       .then((users) => {
-        this.setState({ users: users.results });
+        this.setState({ users: users.results, loading: false });
       });
   }
 
@@ -32,7 +34,9 @@ class App extends Component {
       user.name.last.toLowerCase().includes(searchField.toLowerCase())
     );
 
-    return (
+    if (this.loading) {
+      return <Spinner />;
+    } else {
       <div className="App">
         <Navbar />
         <Searchbox
@@ -40,8 +44,8 @@ class App extends Component {
           handleChange={this.handleChange}
         />
         <CardList users={filteredUsers} />
-      </div>
-    );
+      </div>;
+    }
   }
 }
 
