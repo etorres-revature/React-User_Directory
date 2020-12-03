@@ -1,7 +1,15 @@
 {
   "name": "user-directory",
   "version": "0.1.0",
+  "description": "A web application that displays user information and filters based on input information and sorts based on selected criteria.",
+  "author": "Eric D. Torres",
+  "license": "MIT",
   "private": true,
+  "homepage": "https://etorres-revature.github.io/React-User_Directory/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etorres-revature/React-User_Directory"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
