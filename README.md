@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Github License](https://img.shields.io/badge/License-The_Unlicense-brightgreen)
 
-## Available Scripts
+# React.js User Directory
 
-In the project directory, you can run:
+## Project Description
 
-### `yarn start`
+This project uses the React.js library to create an app that makes an API call and then uses the app's "state" to manipulatet that data.  Data can be filtered through an input box; or, data can be sorted through various buttons.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Title](#project-title)
+* [Description](#project-description)
+* [Table of Contents](#table-of-contents)
+* [Installation](#installation-instructions)
+* [Usage](#usage)
+* [Contributing](#guidelines-for-contributing)
+* [Tests](#tests)
+* [Technologies](#technologies-used)
+* [Author](#author)
+* [Questions](#questions)
+* [License](#license)
 
-### `yarn test`
+## Installation Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project can be cloned or forked for personal use.  The [User Directory](https://etorres-revature.github.io/React-User_Directory/) is deployed to GitHub Pages.
 
-### `yarn build`
+## Usage 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The [User Directory](https://etorres-revature.github.io/React-User_Directory/) is deployed on GitHub Pages. Once the link is followed a loading gif will display until the User information is obtained from the [Random User Generator API](https://randomuser.me/).  The [User Directory](https://etorres-revature.github.io/React-User_Directory/) has an input box that will filter users by last name.  The [User Directory](https://etorres-revature.github.io/React-User_Directory/) has buttons that will sort users by both Last Name and First Name in alphabetical and reverse-alphabetical order. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Guidelines for Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Please send thoughts and idea for further upgades and/or improvements to the e-mail address below.
 
-### `yarn eject`
+## Tests
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Test early; test often.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies Used 
+### :computer: :computer: :computer: :computer: :computer: :computer: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### :memo: HTML5 :memo:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantec features are included.
 
-## Learn More
+*HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### :art: CSS :art:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-### Code Splitting
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*CSS* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
 
-### Analyzing the Bundle Size
+#### :shoe: Bootstrap 4 :shoe:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### :sparkler: JavaScript :sparkler:
 
-### Making a Progressive Web App
+**JavaScript (JS)** is one of the core technologies of the World Wide Web (along with HTML and CSS). It enables interactive web pages and is an essential part of web applications.  JS is a multi-faceted, scripting language that provides versatility through Application Programming Interfaces (APIs) and Document Object Model (DOM) manipulation, among others.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+*JavaScript* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/JavaScript).</a>
 
-### Advanced Configuration
+#### :globe_with_meridians: NODE.js :globe_with_meridians:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**NODE.js** is an open-source, cross-platform JavaScript runtime environment that execute JavaScript code outside a web browser.  NODE.js lets developers use JavaScript to write command line tools and for server-side scripting.  NODE.js represents a "Javascript everywhere" paradigm, unifying web-application development around a single programming language, rather than different programming languages for server- and client-side scripts.  
 
-### Deployment
+*NODE.js* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Node.js).</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[Download Node.js](https://nodejs.org/en/).
 
-### `yarn build` fails to minify
+#### :dizzy: React.js :dizzy:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**React.js** is an open source JavaScript library that is used for building interfaces for single-page applications, which handles the view layer for web and mobile apps.  React allows for the creation of reusable UI components.  This allows developers to create large web applications that change data, without reloading the page.
+
+*React.js* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://www.c-sharpcorner.com/article/what-and-why-reactjs/#:~:text=It's%20used%20for%20handling%20the,to%20create%20reusable%20UI%20components.&text=React%20allows%20developers%20to%20create,fast%2C%20scalable%2C%20and%20simple.).</a>
+
+
+### Author 
+
+This *React.js User Directory* was built by :green_heart: Eric D. Torres :green_heart:
+
+## Questions
+
+Check out my [GitHub profile](https://github.com/etorres-revature).
+
+You can contact me by e-mail at etorresnotary@gmail.com for any additional questions and/ or clarifications you may need about the project.
+
+##### License
+
+[This application uses the **The Unlicense** found here](./LICENSE).
+
+**[This README.md file generated with my NODE.js README Generator app.](https://github.com/etorres-revature/NODEjs_README.md_Generator)**
