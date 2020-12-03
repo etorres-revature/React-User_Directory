@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Navbar from "./components/layout/Navbar";
-import Cardlist from "./components/card/Cardlist";
+import CardList from "./components/card/CardList";
 import Searchbox from "./components/Searchbox/Searchbox";
 import "./App.css";
 
@@ -15,9 +15,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://randomuser.me/api/?results=90")
-      .then((response) => response.json)
-      .then((users) => this.setState({ users }));
+    fetch("https://randomuser.me/api/?results=120&nat=us")
+      .then((res) => res.json())
+      .then((users) => {
+        this.setState({ users: users.results });
+      });
   }
 
   handleChange = (e) => {
@@ -26,18 +28,19 @@ class App extends Component {
 
   render() {
     const { users, searchField } = this.state;
-    const filteredUsers = users.filter((user) =>
-      user.name.toLowerCase().includes(searchField.toLowerCase())
-    );
+    // const filteredUsers = users.name.last.filter((user) =>
+    //   user.name.last.toLowerCase().includes(searchField.toLowerCase())
+    // );
+    console.log(this.state.users);
 
     return (
       <div className="App">
         <Navbar />
         <Searchbox
           placeholder="search for users"
-          handleChange="this.handleChange"
+          handleChange={this.handleChange}
         />
-        <Cardlist users={filteredUsers} />
+        <CardList users={users} />
       </div>
     );
   }
