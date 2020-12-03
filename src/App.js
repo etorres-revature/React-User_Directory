@@ -31,28 +31,30 @@ class App extends Component {
 
   lastNameAsc = () => {
     const users = this.state.users.sort((a, b) =>
-      a.name.last.localeCompare(b.name.last));
+      a.name.last.localeCompare(b.name.last)
+    );
     this.setState({ users: users });
   };
 
   lastNameDesc = () => {
     const users = this.state.users.sort((a, b) =>
-    b.name.last.localeCompare(a.name.last));
-  this.setState({ users: users });
+      b.name.last.localeCompare(a.name.last)
+    );
+    this.setState({ users: users });
   };
 
   firstNameAsc = () => {
     const users = this.state.users.sort((a, b) =>
-    a.name.first.localeCompare(b.name.first)
-  );
-  this.setState({ users: users });
+      a.name.first.localeCompare(b.name.first)
+    );
+    this.setState({ users: users });
   };
 
   firstNameDesc = () => {
     const users = this.state.users.sort((a, b) =>
-    b.name.last.localeCompare(a.name.last)
-  );
-  this.setState({ users: users });
+      b.name.first.localeCompare(a.name.first)
+    );
+    this.setState({ users: users });
   };
 
   render() {
@@ -71,10 +73,11 @@ class App extends Component {
             placeholder="search for users by last name"
             handleChange={this.handleChange}
           />
-          <SortBySelect lastNameAsc={this.lastNameAsc} 
-          lastNameDesc={this.lastNameDesc}
-          firstNameAsc={this.firstNameAsc}
-          firstNameDesc={this.firstNameDesc}
+          <SortBySelect
+            lastNameAsc={this.lastNameAsc}
+            lastNameDesc={this.lastNameDesc}
+            firstNameAsc={this.firstNameAsc}
+            firstNameDesc={this.firstNameDesc}
           />
           <CardList users={filteredUsers} />
         </div>

@@ -19,7 +19,7 @@ const SortBySelect = ({
         First Name: A - Z
       </button>
       <button className="btn btn-greenblue" onClick={firstNameDesc}>
-        First Name: A - Z
+        First Name: Z - A
       </button>
     </div>
   );
