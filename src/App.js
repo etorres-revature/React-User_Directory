@@ -28,19 +28,18 @@ class App extends Component {
 
   render() {
     const { users, searchField } = this.state;
-    // const filteredUsers = users.name.last.filter((user) =>
-    //   user.name.last.toLowerCase().includes(searchField.toLowerCase())
-    // );
-    console.log(this.state.users);
+    const filteredUsers = users.filter((user) =>
+      user.name.last.toLowerCase().includes(searchField.toLowerCase())
+    );
 
     return (
       <div className="App">
         <Navbar />
         <Searchbox
-          placeholder="search for users"
+          placeholder="search for users by last name"
           handleChange={this.handleChange}
         />
-        <CardList users={users} />
+        <CardList users={filteredUsers} />
       </div>
     );
   }
