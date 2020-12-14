@@ -1,10 +1,10 @@
-![Github License](https://img.shields.io/badge/License-The_Unlicense-brightgreen)
+![Github License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 # React.js User Directory
 
 ## Project Description
 
-This project uses the React.js library to create an app that makes an API call and then uses the app's "state" to manipulatet that data. Data can be filtered through an input box; or, data can be sorted through various buttons.
+This project uses the React.js library to create an app that makes an API call and then uses the app's "state" to manipulate that data. Data can be filtered through an input box; or, data can be sorted through various buttons.
 
 ## Table of Contents
 
@@ -118,6 +118,6 @@ You can contact me by e-mail at etorresnotary@gmail.com for any additional quest
 
 ##### License
 
-[This application uses the **The Unlicense** found here](./LICENSE).
+[This application uses the **MIT License* found here](./LICENSE).
 
 **[This README.md file generated with my NODE.js README Generator app.](https://github.com/etorres-revature/NODEjs_README.md_Generator)**
