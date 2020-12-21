@@ -84,12 +84,6 @@ Separation of formatting and content also makes it feasible to present the same 
 
 _CSS_ content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
 
-#### :shoe: Bootstrap 4 :shoe:
-
-**Bootstrap 4** is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
-
-_Bootstrap 4_ content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Bootstrap\_(front-end_framework)).</a>
-
 #### :sparkler: JavaScript :sparkler:
 
 **JavaScript (JS)** is one of the core technologies of the World Wide Web (along with HTML and CSS). It enables interactive web pages and is an essential part of web applications. JS is a multi-faceted, scripting language that provides versatility through Application Programming Interfaces (APIs) and Document Object Model (DOM) manipulation, among others.
@@ -122,6 +116,6 @@ You can contact me by e-mail at etorresnotary@gmail.com for any additional quest
 
 ##### License
 
-[This application uses the **MIT License* found here](./LICENSE).
+[This application uses the \*_MIT License_ found here](./LICENSE).
 
 **[This README.md file generated with my NODE.js README Generator app.](https://github.com/etorres-revature/NODEjs_README.md_Generator)**
